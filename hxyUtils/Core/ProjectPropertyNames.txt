@@ -1,0 +1,66 @@
+OutputTypeEx: 2
+TargetFrameworkMoniker: .NETFramework,Version=v4.0
+ComVisible: False
+EnableSecurityDebugging: True
+OptionCompare: 0
+StartupObject: 
+ManifestCertificateThumbprint: 
+Trademark: 
+Title: Enjoo.Model
+AssemblyOriginatorKeyFileType: 1
+FileName: Enjoo.Model.csproj
+WebServer
+AssemblyOriginatorKeyMode: 0
+AssemblyKeyContainerName: 
+ProjectType: 0
+ReferencePath: 
+PreBuildEvent: 
+Copyright: Copyright ©  2013
+ApplicationIcon: 
+ExcludedPermissions: 
+RunPostBuildEvent: 1
+DefaultTargetSchema: 1
+RootNamespace: Enjoo
+ManifestTimestampUrl: 
+ManifestKeyFile: 
+DebugSecurityZoneURL: 
+Product: Enjoo.Model
+PostBuildEvent: 
+OptionStrict: 0
+DefaultHTMLPageLayout: 1
+DelaySign: False
+OutputType: 2
+NeutralResourcesLanguage: 
+OptionExplicit: 1
+OutputFileName: Enjoo.Model.dll
+ServerExtensionsVersion
+AssemblyGuid: 3ba9caa8-9776-4d6b-aadd-911783fc32f1
+GenerateManifests: False
+AssemblyVersion: 1.0.0.0
+Win32ResourceFile: 
+Description: 
+URL: file:///D:\_Code\OEA_Enjoo\Code\Enjoo.Model\
+DefaultClientScript: 0
+TargetFramework: 262144
+SignManifests: False
+OfflineURL
+WebServerVersion
+Publish: System.__ComObject
+AssemblyType: 0
+FullPath: D:\_Code\OEA_Enjoo\Code\Enjoo.Model\
+WebAccessMethod
+AssemblyKeyProviderName: 
+TypeComplianceDiagnostics: False
+Company: 
+ActiveFileSharePath
+AssemblyOriginatorKeyFile: 
+ApplicationManifest: DefaultManifest
+AssemblyFileVersion: 1.0.0.0
+AspnetVersion
+FileSharePath
+AssemblyName: Enjoo.Model
+LocalPath: D:\_Code\OEA_Enjoo\Code\Enjoo.Model\
+DefaultNamespace: Enjoo
+LinkRepair: False
+TargetZone: 
+SignAssembly: False
