@@ -61,7 +61,15 @@
               <CommandFlag>DynamicVisibility</CommandFlag>
           If you do not want an image next to your command, remove the Icon node /> -->
 
-            <Button guid="guidhxyUtilsCmdSet" id="cmdidAddFileHeaderCommand" priority="0x0100" type="Button">
+            <Button guid="guidhxyUtilsCmdSet" id="cmdidOpenDebugDirCommand" priority="0x0100" type="Button">
+                <Parent guid="guidhxyUtilsCmdSet" id="hxyUtilsMenuGroup" />
+                <Icon guid="guidHxyImages" id="bmpHxy" />
+                <Strings>
+                    <ButtonText>打开输出文件夹</ButtonText>
+                </Strings>
+            </Button>
+
+            <Button guid="guidhxyUtilsCmdSet" id="cmdidAddFileHeaderCommand" priority="0x0101" type="Button">
                 <Parent guid="guidhxyUtilsCmdSet" id="hxyUtilsMenuGroup" />
                 <Icon guid="guidHxyImages" id="bmpHxy" />
                 <!--<CommandFlag>DynamicVisibility</CommandFlag>-->
@@ -71,7 +79,7 @@
                 </Strings>
             </Button>
 
-            <Button guid="guidhxyUtilsCmdSet" id="cmdidFastAttachProcessCommand" priority="0x0101" type="Button">
+            <Button guid="guidhxyUtilsCmdSet" id="cmdidFastAttachProcessCommand" priority="0x0102" type="Button">
                 <Parent guid="guidhxyUtilsCmdSet" id="hxyUtilsMenuGroup" />
                 <Icon guid="guidHxyImages" id="bmpHxy" />
                 <Strings>
@@ -79,19 +87,11 @@
                     <ToolTipText>附加到设置的进程</ToolTipText>
                 </Strings>
             </Button>
-            <Button guid="guidhxyUtilsCmdSet" id="cmdidSetFastAttachProcessNameCommand" priority="0x0102" type="Button">
+            <Button guid="guidhxyUtilsCmdSet" id="cmdidSetFastAttachProcessNameCommand" priority="0x0103" type="Button">
                 <Parent guid="guidhxyUtilsCmdSet" id="hxyUtilsMenuGroup" />
                 <Icon guid="guidHxyImages" id="bmpHxy" />
                 <Strings>
                     <ButtonText>快速附加进程 - 设置</ButtonText>
-                </Strings>
-            </Button>
-
-            <Button guid="guidhxyUtilsCmdSet" id="cmdidOpenDebugDirCommand" priority="0x0103" type="Button">
-                <Parent guid="guidhxyUtilsCmdSet" id="hxyUtilsMenuGroup" />
-                <Icon guid="guidHxyImages" id="bmpHxy" />
-                <Strings>
-                    <ButtonText>打开输出文件夹</ButtonText>
                 </Strings>
             </Button>
 
